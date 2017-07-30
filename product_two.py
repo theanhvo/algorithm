@@ -1,3 +1,6 @@
+'''
+Tìm tích lớn nhất của 2 số
+'''
 product = []
 li = [-11,4,2,2,2,-5]
 for  i in range(len(li)):

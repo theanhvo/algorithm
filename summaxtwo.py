@@ -1,4 +1,6 @@
-# Tìm tổng lớn nhất của 2 số
+'''
+Tìm tổng lớn nhất của 2 số  trong 1 list
+'''
 tong = []
 li = [20,11,30,33,2,555]
 for  i in range(len(li)):
