@@ -9,9 +9,8 @@ ví dụ :
 (vì 5 * 2 * -1 = -10, 4 * 2 * -1 = -8,
     4 * 5 * -1 = -20, 4 * 5 * 2 = 40)
 '''
-_input = [1, 2, 3]
-# _input = [4, 5, 2, -1]
 
+_input = [1, 2, 3]
 
 def find_multi(_input):
     result = []
@@ -22,6 +21,5 @@ def find_multi(_input):
                 multi *= number_2
         result.append(multi)
     return result
-
 
 print(find_multi(_input))
